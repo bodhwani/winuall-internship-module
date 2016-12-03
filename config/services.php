@@ -19,12 +19,22 @@ return [
         'secret' => env('MAILGUN_SECRET'),
     ],
 
+<<<<<<< HEAD
     'ses' => [
         'key' => env('SES_KEY'),
+=======
+    'mandrill' => [
+        'secret' => env('MANDRILL_SECRET'),
+    ],
+
+    'ses' => [
+        'key'    => env('SES_KEY'),
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
         'secret' => env('SES_SECRET'),
         'region' => 'us-east-1',
     ],
 
+<<<<<<< HEAD
     'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
     ],
@@ -32,6 +42,11 @@ return [
     'stripe' => [
         'model' => App\User::class,
         'key' => env('STRIPE_KEY'),
+=======
+    'stripe' => [
+        'model'  => App\User::class,
+        'key'    => env('STRIPE_KEY'),
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
         'secret' => env('STRIPE_SECRET'),
     ],
 

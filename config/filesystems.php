@@ -45,6 +45,7 @@ return [
 
         'local' => [
             'driver' => 'local',
+<<<<<<< HEAD
             'root' => storage_path('app'),
         ],
 
@@ -52,16 +53,50 @@ return [
             'driver' => 'local',
             'root' => storage_path('app/public'),
             'visibility' => 'public',
+=======
+            'root'   => storage_path('app'),
+        ],
+
+        'ftp' => [
+            'driver'   => 'ftp',
+            'host'     => 'ftp.example.com',
+            'username' => 'your-username',
+            'password' => 'your-password',
+
+            // Optional FTP Settings...
+            // 'port'     => 21,
+            // 'root'     => '',
+            // 'passive'  => true,
+            // 'ssl'      => true,
+            // 'timeout'  => 30,
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
         ],
 
         's3' => [
             'driver' => 's3',
+<<<<<<< HEAD
             'key' => 'your-key',
+=======
+            'key'    => 'your-key',
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
             'secret' => 'your-secret',
             'region' => 'your-region',
             'bucket' => 'your-bucket',
         ],
 
+<<<<<<< HEAD
+=======
+        'rackspace' => [
+            'driver'    => 'rackspace',
+            'username'  => 'your-username',
+            'key'       => 'your-key',
+            'container' => 'your-container',
+            'endpoint'  => 'https://identity.api.rackspacecloud.com/v2.0/',
+            'region'    => 'IAD',
+            'url_type'  => 'publicURL',
+        ],
+
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
     ],
 
 ];

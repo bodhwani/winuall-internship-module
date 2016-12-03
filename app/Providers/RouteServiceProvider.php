@@ -8,7 +8,11 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 class RouteServiceProvider extends ServiceProvider
 {
     /**
+<<<<<<< HEAD
      * This namespace is applied to your controller routes.
+=======
+     * This namespace is applied to the controller routes in your routes file.
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
      *
      * In addition, it is set as the URL generator's root namespace.
      *
@@ -37,6 +41,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function map(Router $router)
     {
+<<<<<<< HEAD
         $this->mapWebRoutes($router);
 
         //
@@ -55,6 +60,9 @@ class RouteServiceProvider extends ServiceProvider
         $router->group([
             'namespace' => $this->namespace, 'middleware' => 'web',
         ], function ($router) {
+=======
+        $router->group(['namespace' => $this->namespace], function ($router) {
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
             require app_path('Http/routes.php');
         });
     }

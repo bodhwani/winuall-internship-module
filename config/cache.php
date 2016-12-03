@@ -38,12 +38,17 @@ return [
 
         'database' => [
             'driver' => 'database',
+<<<<<<< HEAD
             'table' => 'cache',
+=======
+            'table'  => 'cache',
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
             'connection' => null,
         ],
 
         'file' => [
             'driver' => 'file',
+<<<<<<< HEAD
             'path' => storage_path('framework/cache'),
         ],
 
@@ -54,6 +59,16 @@ return [
                     'host' => env('MEMCACHED_HOST', '127.0.0.1'),
                     'port' => env('MEMCACHED_PORT', 11211),
                     'weight' => 100,
+=======
+            'path'   => storage_path('framework/cache'),
+        ],
+
+        'memcached' => [
+            'driver'  => 'memcached',
+            'servers' => [
+                [
+                    'host' => '127.0.0.1', 'port' => 11211, 'weight' => 100,
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
                 ],
             ],
         ],

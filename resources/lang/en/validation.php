@@ -34,13 +34,19 @@ return [
     'different'            => 'The :attribute and :other must be different.',
     'digits'               => 'The :attribute must be :digits digits.',
     'digits_between'       => 'The :attribute must be between :min and :max digits.',
+<<<<<<< HEAD
     'distinct'             => 'The :attribute field has a duplicate value.',
+=======
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
     'email'                => 'The :attribute must be a valid email address.',
     'exists'               => 'The selected :attribute is invalid.',
     'filled'               => 'The :attribute field is required.',
     'image'                => 'The :attribute must be an image.',
     'in'                   => 'The selected :attribute is invalid.',
+<<<<<<< HEAD
     'in_array'             => 'The :attribute field does not exist in :other.',
+=======
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
     'integer'              => 'The :attribute must be an integer.',
     'ip'                   => 'The :attribute must be a valid IP address.',
     'json'                 => 'The :attribute must be a valid JSON string.',
@@ -59,7 +65,10 @@ return [
     ],
     'not_in'               => 'The selected :attribute is invalid.',
     'numeric'              => 'The :attribute must be a number.',
+<<<<<<< HEAD
     'present'              => 'The :attribute field must be present.',
+=======
+>>>>>>> 84a717c2a33d7f1175660ec174c315e1c580603c
     'regex'                => 'The :attribute format is invalid.',
     'required'             => 'The :attribute field is required.',
     'required_if'          => 'The :attribute field is required when :other is :value.',
